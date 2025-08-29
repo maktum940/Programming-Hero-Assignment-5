@@ -14,7 +14,7 @@
 
     <header>
         <!-- info button -->
-        <div class="min-md:hidden sticky top-0 flex justify-between items-center w-full h-[80px] bg-[#00A63E] ">
+        <div class="min-md:hidden sticky top-0 flex justify-between items-center w-full h-[80px] bg-[#00A63E] shadow-xl/30 rounded-b-xl">
             <div class="ml-[20px] flex gap-5">
                 <div class="flex items-start gap-[5px]">
                     <span id="heart-count" class="font-bold">0</span>
@@ -33,9 +33,9 @@
         </div>
         <nav class="flex mx-[60px] my-[24px] justify-between max-md:flex-col max-md:items-center gap-y-5">
             <!-- logo and title -->
-            <div class="flex items-center gap-[10px] h-[50px] w-[195px]">
-                <img class="size-[100%] object-fill" src="./assets/logo.png">
-                <p class="text-[#006747] text-2xl/5 font-bold">Emergency Service</p>
+            <div class="flex items-center gap-[10px] h-[50px] w-[195px] max-md:my-[50px] max-md:flex-col">
+                <img class="size-[50px]" src="./assets/logo.png">
+                <p class="text-[#006747] text-2xl/5 font-bold max-md:text-center max-md:text-xl">Emergency Service</p>
             </div>
             <!-- display for all actions -->
             <div class="flex justify-between w-[397px] h-[52px] gap-[10px] max-md:hidden">
@@ -52,6 +52,12 @@
                 </div>
             </div>
         </nav>
+        <!-- Hero Section -->
+        <div class="flex flex-col justify-center items-center w-full h-[239px] bg-gradient-to-r from-[#013223] via-[#006747] to-[#013223] hind gap-[11px] max-md:h-[350px]">
+            <img class="size-[92px] " src="/assets/logo-dark.png">
+            <h1 class="text-white text-center text-4xl font-bold max-md:mx-5">Emergency Service Directory</h1>
+            <p class="text-white text-center ">Government Emergency Services at Your Fingertip – A Project by  Government of the People’s Republic of Bangladesh</p>
+        </div>
     </header>
 
 </body>
