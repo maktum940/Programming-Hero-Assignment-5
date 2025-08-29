@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./font.css">
+</head>
+
+<body>
+
+    <header>
+        <!-- info button -->
+        <div class="min-md:hidden sticky top-0 flex justify-between items-center w-full h-[80px] bg-[#00A63E] ">
+            <div class="ml-[20px] flex gap-5">
+                <div class="flex items-start gap-[5px]">
+                    <span id="heart-count" class="font-bold">0</span>
+                    <img class="size-[20px]" src="./assets/heart.png">
+                </div>
+                <div class="flex items-start gap-[5px]">
+                    <span id="coin-count" class="font-bold">100</span>
+                    <img class="size-[20px]" src="./assets/coin.png">
+                </div>
+                <div class="flex items-start gap-[5px]">
+                    <span id="copy-count" class="font-bold">0</span>
+                    <img class="size-[20px]" src="./assets/copy.png">
+                </div>
+            </div>
+            
+        </div>
+        <nav class="flex mx-[60px] my-[24px] justify-between max-md:flex-col max-md:items-center gap-y-5">
+            <!-- logo and title -->
+            <div class="flex items-center gap-[10px] h-[50px] w-[195px]">
+                <img class="size-[100%] object-fill" src="./assets/logo.png">
+                <p class="text-[#006747] text-2xl/5 font-bold">Emergency Service</p>
+            </div>
+            <!-- display for all actions -->
+            <div class="flex justify-between w-[397px] h-[52px] gap-[10px] max-md:hidden">
+                <div class="w-[123px] flex justify-center items-center gap-[5px] bg-[#41FF6B]/10 rounded-[50px]">
+                    <span id="heart-count" class="font-bold">0</span>
+                    <img class="size-[30px]" src="./assets/heart.png">
+                </div>
+                <div class="w-[123px] flex justify-center items-center gap-[5px] bg-[#41FF6B]/10 rounded-[50px]">
+                    <span id="coin-count" class="font-bold">100</span>
+                    <img class="size-[30px]" src="./assets/coin.png">
+                </div>
+                <div class="w-[123px] flex justify-center items-center bg-[#00A63E] rounded-[50px]">
+                    <p class="text-white"><span id="copy-count">0</span> Copy</p>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+</body>
+
+</html>
